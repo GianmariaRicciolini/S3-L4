@@ -20,7 +20,7 @@ drawNumber.onclick = function () {
   const cells = document.getElementsByTagName("td");
 
   for (let i = 0; i < cells.length; i++) {
-    if (parseInt(cells[i].innerHTML) === randomNumber) {
+    if (parseInt(cells[i].innerText) === randomNumber) {
       cells[i].classList.add("chosen");
       break;
     }
