@@ -1,0 +1,24 @@
+body {
+  box-sizing: border-box;
+  background-color: bisque;
+}
+table {
+  margin: auto;
+}
+td {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(137, 6, 6);
+  font-size: 1.5rem;
+  padding: 1em;
+  background-color: rgb(233, 220, 220);
+  color: rgb(137, 6, 6);
+  font-weight: bold;
+  text-align: center;
+}
+
+.chosen {
+  border-color: rgb(78, 78, 235);
+  background-color: rgb(180, 180, 244);
+  color: rgb(78, 78, 235);
+}
