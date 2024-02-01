@@ -1,6 +1,27 @@
 body {
   box-sizing: border-box;
   background-color: bisque;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-top: 1em;
+  color: rgb(96, 1, 1);
+  font-weight: bolder;
+}
+
+button {
+  padding: 0.2em 0.5em;
+  font-size: 1.5rem;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 1em;
+  border-color: rgb(137, 6, 6);
+  background-color: rgb(220, 229, 233);
+  color: rgb(137, 6, 6);
+  font-weight: bold;
 }
 table {
   margin: auto;
@@ -19,6 +40,6 @@ td {
 
 .chosen {
   border-color: rgb(78, 78, 235);
-  background-color: rgb(180, 180, 244);
+  background-color: rgb(220, 229, 233);
   color: rgb(78, 78, 235);
 }
