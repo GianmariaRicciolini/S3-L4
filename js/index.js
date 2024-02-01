@@ -15,11 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 drawNumber.onclick = function () {
   const randomNumber = Math.floor(Math.random() * 76) + 1;
+  console.log(randomNumber);
 
   const cells = document.getElementsByTagName("td");
-  for (let i = 0; i < cells; i++) {
-    if (cells[i] === randomNumber) {
+
+  for (let i = 0; i < cells.length; i++) {
+    if (parseInt(cells[i].innerHTML) === randomNumber) {
       cells[i].classList.add("chosen");
+      break;
     }
   }
 };
