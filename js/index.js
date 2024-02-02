@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const cell = currentRow.insertCell();
-    cell.innerHTML = i;
+    cell.innerText = i;
   }
 });
 
 drawNumber.onclick = function () {
-  const randomNumber = Math.floor(Math.random() * 76) + 1;
+  const randomNumber = Math.ceil(Math.random() * 76);
   console.log(randomNumber);
 
   const cells = document.getElementsByTagName("td");
